@@ -1,5 +1,5 @@
 # Vivado项目的.gitignore文件
-
+.DS_Store
 # 日志文件
 *.log
 *.jou
@@ -26,10 +26,10 @@
 
 # 编译输出和中间文件
 */*.hw/
-*/*.runs/**/
-!*/*.runs/**/design_*.bit
-!*/*.runs/**/design_*.ltx
-!*/*.runs/impl_*/timing_summary_*
+*/*.runs/**/*
+!*/*.runs/impl_1/*.bit
+!*/*.runs/impl_1/*.ltx
+!*/*.runs/impl_1/timing_summary_*
 
 # 禁止备份文件
 *~
