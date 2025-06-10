@@ -1,0 +1,42 @@
+# Vivado项目的.gitignore文件
+
+# 日志文件
+*.log
+*.jou
+*.rpt
+*.vdi
+
+# 工作目录（可以重新生成）
+*/.Xil/
+*/xsim.dir/
+*.sim/
+
+# 缓存目录
+*/*.cache/
+
+# 生成的文件目录（保留.bit文件）
+**/project_*/project_*.gen/
+!**/*.bit
+
+# IP核相关文件(只保留必要部分)
+**/ip/**/synth/
+**/ip/**/simulation/
+**/ip/**/tmp/
+*.ip_user_files/
+
+# 编译输出和中间文件
+*/*.hw/
+*/*.runs/**/
+!*/*.runs/**/design_*.bit
+!*/*.runs/**/design_*.ltx
+!*/*.runs/impl_*/timing_summary_*
+
+# 禁止备份文件
+*~
+.DS_Store
+.Spotlight-V100
+.Trashes
+
+# IDE相关文件
+.idea/
+.vscode/
