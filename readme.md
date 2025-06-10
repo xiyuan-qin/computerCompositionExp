@@ -23,7 +23,7 @@
 
 1. 克隆本仓库
    ```
-   git clone https://github.com/yourusername/computerCompositionExp.git
+   git clone https://github.com/xiyuan-qin/computerCompositionExp
    ```
 
 2. 使用Vivado 2024.2打开对应项目文件夹中的`.xpr`项目文件
